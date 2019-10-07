@@ -7,6 +7,6 @@ class Author
   end
   
   def posts
-    posts.Author
+    posts.Author = self
     
 end
