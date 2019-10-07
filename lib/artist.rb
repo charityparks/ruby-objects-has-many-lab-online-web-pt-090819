@@ -21,7 +21,7 @@ class Artist
     end
     
     def song_count
-      Artist.songs += 1
+      Artist.songs = song_count
     end
       
 end
