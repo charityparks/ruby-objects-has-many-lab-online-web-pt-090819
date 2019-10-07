@@ -7,7 +7,7 @@ class Artist
   end
   
   def songs
-    @songs = []
+    Song.all = self
   end
   
   def add_songs(song)
